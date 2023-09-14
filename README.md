@@ -27,7 +27,6 @@ pip install -r requirement.txt
 
 
 ## Datasets
-We use the [MSCOCO](https://cocodataset.org/) dataset for evaluation. Metadata is in ``L-CoDer/resources``.
 
 Extended COCO-Stuff dataset lacks samples with distinctive visual characteristics and detailed language description or multiple instances in image (right image). Therefore, we build the new dataset [Multi-instance dataset](https://drive.google.com/file/d/1FnVdKtAVdgIm8AXT3jZTivNySILUErU9/view?usp=drive_link) with these miscellaneous cases to train the model to learn inter-instance relationships and assign distinct colors to each instance.
 
